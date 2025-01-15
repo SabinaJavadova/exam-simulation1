@@ -1,0 +1,34 @@
+.searc{
+
+  border: none;
+  padding: 5px;
+  width: 30%;
+  border-bottom:solid 1px gray;
+  font-size: 20px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  background-color: #F8F9FA;
+  h3{
+    color: #756CE9;
+  }
+  p{
+    color: #9AA0AC;
+  }
+  span{
+    color: #756CE9;
+  }
+}
+
+.divss{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.searching{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}

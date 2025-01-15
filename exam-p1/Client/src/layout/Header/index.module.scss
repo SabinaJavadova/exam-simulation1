@@ -1,0 +1,52 @@
+.navbar{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 10rem;
+ padding-bottom: 30px;
+ border-bottom: 0.5px solid rgb(248, 248, 248);
+  .input{
+    input{
+      border: none;
+      padding: 5px;
+    }
+    i{
+      color: rgb(149, 143, 143);
+      
+    }
+
+  }
+  .shopper{
+    border: 1px solid black;
+    width: 8%;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3{
+      text-align: center;
+      letter-spacing: 3px;
+    }
+    }
+    
+    .ikon{
+      color: gray;
+      display: flex;
+      gap: 1rem;    
+    }
+
+}
+
+header{
+  margin-top: 2rem;
+  .router{
+ 
+    padding: 2rem;
+    
+    ul{
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+  }
+}

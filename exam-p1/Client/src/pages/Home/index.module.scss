@@ -1,0 +1,40 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp");
+  background-position:center ;
+  background-size:cover ;
+  background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 300px;
+  .text{
+   width: 35%;
+   display: flex;
+   flex-direction: column;
+   margin-left: 800px;
+   gap: 30px;
+   h2{
+    font-size: 40px;
+   }
+   p{
+    font-size: 20px;
+   }
+
+   button{
+    background-color: #928ce2;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+      background-color: #625bbf;
+      color: white;
+    }
+   }
+  }
+}
